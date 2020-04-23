@@ -1,0 +1,65 @@
+/** remove new shitty header, bring back old style notifications **/
+.notifications-list-item .notification-list-item-link .d-flex.flex-column.flex-auto .d-flex {
+    display: none !important;
+}
+.notifications-list-item .Label {
+    display: none !important
+}
+.notification-list-item-actions {
+    display: flex !important;
+}
+.js-notification-action button {
+    background: none;
+    border: none;
+}
+relative-time {
+    display: block !important;
+    color: #6a737d !important;
+    position: absolute;
+    left: 660px;
+}
+
+.Box-header {
+    max-height: 36px !important;
+}
+.Box-header h6 {
+    font-size: 15px !important;
+}
+
+
+/** remove "mark as done" text from buttons **/
+button[title="Mark as done"] {
+    text-align: left !important;
+    text-indent: -9999px;
+    width: 25px !important;
+    height: 25px !important;
+}
+button[title="Mark as done"] span {
+    text-indent: 9994px !important;
+}
+
+
+/** hide clutter and tidy up list **/
+nav.notification-navigation,
+.js-notification-sidebar-repositories,
+.js-notification-sidebar-filters {
+    display: none !important;
+}
+
+.js-check-all-container {
+    max-width: 60% !important;
+    margin: 0 auto;
+}
+
+.js-notifications-group {
+    margin-top: 30px !important;
+}
+
+.notification-list-item-unread-indicator,
+.js-notification-bulk-action-check-item {
+    /*display: none !important;*/
+}
+
+button[title="Save"] {
+    display: none !important;
+}
